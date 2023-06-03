@@ -188,7 +188,7 @@ class _MyDialogState extends State<MyDialog> {
     int limit = (data != null && data.containsKey('limit')) ? data['limit'] : 0;
 
     if (limit >= 1) {
-      int sloti = 31 - limit;
+      int sloti = 51 - limit;
       print(sloti);
       String slot = sloti.toString();
       print(randomId);
